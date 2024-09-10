@@ -1,0 +1,33 @@
+[DEBUG] 2024-08-09 20:19:11.237 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2024-08-09 20:19:11.244 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[INFO ] 2024-08-09 20:19:11.391 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+[INFO ] 2024-08-09 20:19:11.399 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+[INFO ] 2024-08-09 20:19:11.414 [restartedMain] AccountingApplication - Started AccountingApplication in 2.546 seconds (JVM running for 2.965)
+[INFO ] 2024-08-09 20:19:30.997 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2024-08-09 20:19:31.008 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-08-09 20:19:31.011 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-08-18 19:02:34.791 [background-preinit] Version - HV000001: Hibernate Validator 6.2.5.Final
+[INFO ] 2024-08-18 19:02:34.804 [restartedMain] AccountingApplication - Starting AccountingApplication using Java 18.0.2 on Zhuldyzs-MacBook-Air.local with PID 61248 (/Users/zhuldyzmizina/IdeaProjects/java-version-updates-part4/5/grp-5-6-project/target/classes started by zhuldyzmizina in /Users/zhuldyzmizina/IdeaProjects/java-version-updates-part4/5/grp-5-6-project)
+[INFO ] 2024-08-18 19:02:34.805 [restartedMain] AccountingApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-18 19:02:34.821 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2024-08-18 19:02:34.821 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2024-08-18 19:02:35.113 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2024-08-18 19:02:35.141 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 10 JPA repository interfaces.
+[INFO ] 2024-08-18 19:02:35.226 [restartedMain] GenericScope - BeanFactory id=dc5a19f1-bce0-3b83-840f-d80ec290f79e
+[INFO ] 2024-08-18 19:02:35.572 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+[INFO ] 2024-08-18 19:02:35.578 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+[INFO ] 2024-08-18 19:02:35.579 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-08-18 19:02:35.579 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+[INFO ] 2024-08-18 19:02:35.612 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-08-18 19:02:35.612 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 791 ms
+[INFO ] 2024-08-18 19:02:35.679 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-08-18 19:02:35.702 [restartedMain] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2024-08-18 19:02:35.763 [restartedMain] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2024-08-18 19:02:35.804 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-08-18 19:02:35.883 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-08-18 19:02:35.891 [restartedMain] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2024-08-18 19:02:36.266 [restartedMain] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2024-08-18 19:02:36.270 [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2024-08-18 19:02:36.674 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2024-08-18 19:02:36.712 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2024-08-18 19:02:36.901 [restartedMain] DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3042419d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@622b8184, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a1bcf0, org.springframework.security.web.header.HeaderWriterFilter@433d83, org.springframework.security.web.csrf.CsrfFilter@7a6c90a, org.springframework.security.web.authentication.logout.LogoutFilter@2fe4ce2e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@655e3e5e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@718f2079, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52db5c1, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@1c40094d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@676f99a2, org.springframework.security.web.session.SessionManagementFilter@5a5af7a9, org.springframework.security.web.access.ExceptionTranslationFilter@43fec4c0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d2b6d5d]

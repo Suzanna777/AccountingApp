@@ -1,0 +1,19 @@
+[INFO ] 2024-09-09 18:15:26.604 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-09-09 18:15:26.749 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-09-09 18:15:26.757 [restartedMain] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2024-09-09 18:15:27.164 [restartedMain] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2024-09-09 18:15:27.168 [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2024-09-09 18:15:27.559 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2024-09-09 18:15:27.589 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2024-09-09 18:15:27.780 [restartedMain] DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@223ab8a8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d391b5a, org.springframework.security.web.context.SecurityContextPersistenceFilter@191a59df, org.springframework.security.web.header.HeaderWriterFilter@718f2079, org.springframework.security.web.csrf.CsrfFilter@230769fb, org.springframework.security.web.authentication.logout.LogoutFilter@7d831b77, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6b0bd45e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6309a8f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51a4a157, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@6d759e53, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73d35f06, org.springframework.security.web.session.SessionManagementFilter@63c0f8f, org.springframework.security.web.access.ExceptionTranslationFilter@37b86dc4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7bf9fe63]
+[DEBUG] 2024-09-09 18:15:27.823 [restartedMain] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2024-09-09 18:15:27.857 [restartedMain] RequestMappingHandlerMapping - 62 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2024-09-09 18:15:27.862 [restartedMain] SimpleUrlHandlerMapping - Patterns [/, /login, /dashboard, /users/list, /companies/list, /clientVendors/list, /categories/list, /products/list, /purchaseInvoices/list, /salesInvoices/list] in 'viewControllerHandlerMapping'
+[DEBUG] 2024-09-09 18:15:27.870 [restartedMain] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2024-09-09 18:15:27.874 [restartedMain] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[INFO ] 2024-09-09 18:15:28.027 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+[INFO ] 2024-09-09 18:15:28.039 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+[INFO ] 2024-09-09 18:15:28.046 [restartedMain] AccountingAppApplication - Started AccountingAppApplication in 2.635 seconds (JVM running for 3.088)
+[INFO ] 2024-09-09 18:15:50.159 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2024-09-09 18:15:50.161 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-09-09 18:15:50.162 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.

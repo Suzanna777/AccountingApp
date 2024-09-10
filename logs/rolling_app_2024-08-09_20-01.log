@@ -1,0 +1,37 @@
+[DEBUG] 2024-08-09 19:58:04.520 [http-nio-8001-exec-1] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[DEBUG] 2024-08-09 19:58:04.523 [http-nio-8001-exec-8] DispatcherServlet - Completed 200 OK
+[DEBUG] 2024-08-09 19:58:04.522 [http-nio-8001-exec-9] DispatcherServlet - Completed 200 OK
+[DEBUG] 2024-08-09 19:58:04.521 [http-nio-8001-exec-10] DispatcherServlet - Completed 200 OK
+[DEBUG] 2024-08-09 19:58:04.520 [http-nio-8001-exec-5] DispatcherServlet - GET "/assets/vendor/datepicker/moment.js", parameters={}
+[DEBUG] 2024-08-09 19:58:04.524 [http-nio-8001-exec-5] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[DEBUG] 2024-08-09 19:58:04.524 [http-nio-8001-exec-10] DispatcherServlet - GET "/assets/vendor/datepicker/datepicker.js", parameters={}
+[DEBUG] 2024-08-09 19:58:04.524 [http-nio-8001-exec-10] SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[DEBUG] 2024-08-09 19:58:04.525 [http-nio-8001-exec-3] DispatcherServlet - Completed 200 OK
+[DEBUG] 2024-08-09 19:58:04.527 [http-nio-8001-exec-10] DispatcherServlet - Completed 200 OK
+[DEBUG] 2024-08-09 19:58:04.532 [http-nio-8001-exec-1] DispatcherServlet - Completed 200 OK
+[DEBUG] 2024-08-09 19:58:04.533 [http-nio-8001-exec-5] DispatcherServlet - Completed 200 OK
+[INFO ] 2024-08-09 19:59:31.800 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2024-08-09 19:59:31.809 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-08-09 19:59:31.811 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-08-09 20:01:14.396 [background-preinit] Version - HV000001: Hibernate Validator 6.2.5.Final
+[INFO ] 2024-08-09 20:01:14.409 [restartedMain] AccountingApplication - Starting AccountingApplication using Java 18.0.2 on Zhuldyzs-MacBook-Air.local with PID 92796 (/Users/zhuldyzmizina/IdeaProjects/java-version-updates-part4/5/grp-5-6-project/target/classes started by zhuldyzmizina in /Users/zhuldyzmizina/IdeaProjects/java-version-updates-part4/5/grp-5-6-project)
+[INFO ] 2024-08-09 20:01:14.411 [restartedMain] AccountingApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-09 20:01:14.428 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2024-08-09 20:01:14.428 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2024-08-09 20:01:14.714 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2024-08-09 20:01:14.743 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 10 JPA repository interfaces.
+[INFO ] 2024-08-09 20:01:14.827 [restartedMain] GenericScope - BeanFactory id=dc5a19f1-bce0-3b83-840f-d80ec290f79e
+[INFO ] 2024-08-09 20:01:15.161 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+[INFO ] 2024-08-09 20:01:15.166 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+[INFO ] 2024-08-09 20:01:15.167 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-08-09 20:01:15.167 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+[INFO ] 2024-08-09 20:01:15.201 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-08-09 20:01:15.201 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 772 ms
+[INFO ] 2024-08-09 20:01:15.273 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-08-09 20:01:15.297 [restartedMain] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2024-08-09 20:01:15.360 [restartedMain] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2024-08-09 20:01:15.399 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-08-09 20:01:15.468 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-08-09 20:01:15.476 [restartedMain] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2024-08-09 20:01:15.854 [restartedMain] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2024-08-09 20:01:15.858 [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
